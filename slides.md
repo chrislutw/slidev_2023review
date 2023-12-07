@@ -111,6 +111,8 @@ layout: center
 - <img src="https://test-web-cdn.jlfafafa3.com/web_app_icon.png" inline-block w-6 h-6 /> 金銀島
     - <bxl-github/>Github 導入 - 優化發佈流程，縮短發時間到 < 5分鐘
     - 活動頁、說明頁公版優化 - 優化元件參數傳遞方式，讓修改不再需要更動全部遊戲
+    - 歷程 webview 端與遊戲 client 端溝通機制 - 讓某些操作變得更直覺，更省資源無需透過 server 端
+    - 效能及畫面調校 - 協助研發優化記憶使用過大閃退問題
 - <la-slideshare /> 共用
     - 風控系統 - 整合目前各種風控機制，優化前端頁面操作
 
