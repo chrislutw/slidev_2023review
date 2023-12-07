@@ -15,6 +15,17 @@ dependencies:
     specifier: latest
     version: 0.21.3
 
+devDependencies:
+  '@iconify-json/emojione':
+    specifier: ^1.1.1
+    version: 1.1.1
+  '@iconify-json/fontisto':
+    specifier: ^1.1.7
+    version: 1.1.7
+  '@iconify-json/vscode-icons':
+    specifier: ^1.1.31
+    version: 1.1.31
+
 packages:
 
   /@ampproject/remapping@2.2.1:
@@ -584,15 +595,36 @@ packages:
       '@iconify/types': 2.0.0
     dev: false
 
+  /@iconify-json/emojione@1.1.1:
+    resolution: {integrity: sha512-cO097r6ZhX3E1KhWjkIs4urzmKrbLKxt6Z0+t/DPT1om0FJONYxbdDWWXZ4VsDUPn0nnCwlY6VjX97EcxbUE8g==}
+    dependencies:
+      '@iconify/types': 1.1.0
+    dev: true
+
+  /@iconify-json/fontisto@1.1.7:
+    resolution: {integrity: sha512-H3I8cUdyjYjMoh59uYwcBXA0MzCBQoKHfgyk/b5zq6NA3yd7wTvhMlE9nj4ZuA/MrkqS+PFGIg5aJWZBslj8uQ==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: true
+
   /@iconify-json/ph@1.1.8:
     resolution: {integrity: sha512-LtUWsiO/R2Gx4ZqHGJbJYG4XaAFkQ1+rHPQmmQ7NVTaqg7EZibB3ky1aXX12sJ2F+6z8QIpthsw3wRjReEnTig==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: false
 
+  /@iconify-json/vscode-icons@1.1.31:
+    resolution: {integrity: sha512-qkz6LQWZ2tGntOj7X5tC3buNT0qV/DkPRLFRCybj5OoIBdViO0BZxGRXs6t3I41NUNoSYU5hKS+hMGpIVu4bTg==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: true
+
+  /@iconify/types@1.1.0:
+    resolution: {integrity: sha512-Jh0llaK2LRXQoYsorIH8maClebsnzTcve+7U3rQUSnC11X4jtPnFuyatqFLvMxZ8MLG8dB4zfHsbPfuvxluONw==}
+    dev: true
+
   /@iconify/types@2.0.0:
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
-    dev: false
 
   /@iconify/utils@2.1.12:
     resolution: {integrity: sha512-7vf3Uk6H7TKX4QMs2gbg5KR1X9J0NJzKSRNWhMZ+PWN92l0t6Q3tj2ZxLDG07rC3ppWBtTtA4FPmkQphuEmdsg==}
