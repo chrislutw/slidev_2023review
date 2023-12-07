@@ -25,7 +25,7 @@ fonts:
   sans: 'Noto Sans TC'
 ---
 
-# 2022年 回顧與未來展望
+# 2023年 回顧與未來展望
 
 技術服務部 網頁組 呂正中
 
@@ -33,12 +33,22 @@ fonts:
 layout: center
 ---
 
-# 回顧 2022 年 目標
+# 回顧 2023 年 目標
 
 去年給自己的目標
 
-- <logos-cloudinary-icon /> 前端多媒體資源分離 - 可程式化的圖片媒體資源
-- <vscode-icons-file-type-light-cypress /> 自動測試導入
+## <logos-jest /> 單元測試覆蓋率 50% 及自動化
+
+<br>
+
+## <vscode-icons-file-type-light-cypress /> End to End (E2E) cypress 終端測試導入
+
+<br>
+
+## <logos-nuxt-icon /> Nuxt 2 → <logos-nuxt-icon /> Nuxt 3 升級(意即 <logos-vue /> vue3 導入)
+
+- 金銀島
+- Admin2 改版為 <logos-nuxt-icon /> Nuxt 3 及流程改善
 
 <style>
 h1 {
@@ -58,11 +68,22 @@ layout: center
 
 # 目標達成率
 
-- <logos-cloudinary-icon /> 達成，但因成本考量只使用普通的CDN
-- <logos-jest /> 未完全達成，只實作手動單元測試
+因績效目標改變了原先的自我目標
+
+## <logos-jest /> <vscode-icons-file-type-light-cypress /> 測試相關目標未達成<mdi-alert-decagram class="text-red-400" />
+
+<br>
+
+## 績效目標的部署速度提升(5分鐘以下) <mdi-check-decagram class="text-green-500" />
+
+<br>
+
+## <logos-nuxt-icon /> Nuxt 2 → <logos-nuxt-icon /> Nuxt 3 升級(意即 <logos-vue /> vue3 導入)
+
+- 原定目標無達成，而是以新專案達成 [Tada casual](https://www.tadacasual.com/)<mdi-check-decagram class="text-green-500 text-3xl" />
 
 
-<div class="bg-gradient-to-tr bg-clip-text from-green-500 to-sky-500 text-transparent text-8xl inline-block">75%</div>
+<div class="bg-gradient-to-tr bg-clip-text from-green-500 to-sky-500 text-transparent text-8xl inline-block">50%</div>
 
 <style>
 h1 {
@@ -80,10 +101,19 @@ h1 {
 layout: center
 ---
 
-# 未達成目標 <vscode-icons-file-type-light-cypress /> 自動測試導入
+# <fontisto-preview/> 2023重點工作產出
 
-- 只導入單元測試、新增範例，測試覆蓋率2%
-- 自動化流程由於前端多媒體資源分離完成時間較晚加上插件，尚未製作
+工單系統已有詳細清單，整理出以下為精華
+
+- Tada Casual 官網
+    - 採用 <logos-nuxt-icon /> Nuxt 3 - 優化開發體驗，縮短編譯時間
+    - <lets-icons-file-dock-search-fill/> 建立文件專用網站 - 實現單一儲存庫多網站發佈的結構，讓站台不相互影響又可同時編輯
+- <img src="https://test-web-cdn.jlfafafa3.com/web_app_icon.png" inline-block w-6 h-6 /> 金銀島
+    - <bxl-github/>Github 導入 - 優化發佈流程，縮短發時間到 < 5分鐘
+    - 活動頁、說明頁公版優化 - 優化元件參數傳遞方式，讓修改不再需要更動全部遊戲
+- <la-slideshare /> 共用
+    - 風控系統 - 整合目前各種風控機制，優化前端頁面操作
+
 
 <style>
 h1 {
@@ -99,71 +129,15 @@ h1 {
 
 ---
 
-# <fontisto-preview/> 2022重點工作產出
-
-工單系統已有詳細清單，整理出以下為精華
-
-- NFT交易中心
-    - 皮膚系統 - 透過 css 變數設定快速調整版面色系
-    - <simple-icons-iconify /> Icon 圖示套件更換為 Iconify - 超過10萬個 icon 可用的開源套件
-- <img src="https://test-web-cdn.jlfafafa3.com/web_app_icon.png" inline-block w-6 h-6 /> 金銀島
-    - 錯誤頁面改版 - 美化 UI 提升 UX 體驗，容易回報問題及查詢
-    - <logos-jest /> 新增單元測試 - 新增程式範例，覆蓋率 2%
-    - <mdi-image-multiple /> 前端多媒體資源分離 - CI/CD 加速 50% ，縮短 8 分鐘
-    - 活動頁、說明頁公版優化 - 優化 UI 顯示，新增共用元件加速製程
-- <la-slideshare /> 共用
-    - <emojione-package /> 前端套件庫更換 npm <logos-npm-icon /> → pnpm <logos-pnpm /> - 更快速且節省硬碟空间
-
----
-
-# 2023年 新目標
+# 2024年 新目標
 
 <br>
-<br>
-
-## <logos-jest /> 單元測試覆蓋率 50% 及自動化
-
-<br>
-
-## <vscode-icons-file-type-light-cypress /> End to End (E2E) cypress 終端測試導入
-
 <br>
 
 ## <logos-nuxt-icon /> Nuxt 2 → <logos-nuxt-icon /> Nuxt 3 升級(意即 <logos-vue /> vue3 導入)
 
 - 金銀島
-- Admin2 改版為 <logos-nuxt-icon /> Nuxt 3 及流程改善
 
----
+<br>
 
-# <vscode-icons-file-type-light-cypress /> End to End (E2E) cypress 終端測試導入
-
-## 痛點
-
-- 只有 <logos-jest /> 單元測試，有時還不夠完整，無法模擬真正的使用者操作
-- <logos-jest /> 的強項在於單元測試、對元件的測試相對難以使用
-
-## 預計效益
-
-- 模擬真正的使用者操作，當反覆修改時，可減少人工測試成本
-
----
-
-# Admin2 <logos-vue /> vue3 導入
-
-## 痛點
-
-- 現行的後端網站 mixin 功能，無法高度客製頁面需求
-- 開發製作邏輯、流程、畫面都綁著 mixin ，開發者往往要爬完 1000 行才能知其運作細節
-- Admin2 `el-element-admin` 專案，直接遷移至 vue3 版本有難度
-
-## 已知的新舊站整合 BUG
-
-- 舊站把 `query` 當作頁面的 `path` 在使用，導致新站鑲嵌舊站時發生找不到頁面問題
-- 新站鑲嵌舊站時，從舊站開啟新站的連結(無另開視窗)，會發生無限堆疊的鑲嵌情況
-
-## 建議改善方案
-
-- Vue 3 組合式 API 重構邏輯、流程、畫面，分層分類
-- 改用 <logos-nuxt-icon /> Nuxt 3 製作
-- 建議新舊站不要鑲嵌
+## 再搭配公司、部門方針對齊目標

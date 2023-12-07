@@ -16,12 +16,18 @@ dependencies:
     version: 0.21.3
 
 devDependencies:
+  '@iconify-json/bxl':
+    specifier: ^1.1.9
+    version: 1.1.9
   '@iconify-json/emojione':
     specifier: ^1.1.1
     version: 1.1.1
   '@iconify-json/fontisto':
     specifier: ^1.1.7
     version: 1.1.7
+  '@iconify-json/lets-icons':
+    specifier: ^1.1.1
+    version: 1.1.1
   '@iconify-json/vscode-icons':
     specifier: ^1.1.31
     version: 1.1.31
@@ -592,6 +598,12 @@ packages:
       markdown-it: 13.0.2
     dev: false
 
+  /@iconify-json/bxl@1.1.9:
+    resolution: {integrity: sha512-m1MDTy1xBGeXoDXHe3kI1jwibX36CWSWy9mMhtpcAht+nhQzEEtl4uwQD+m05UvGyzEDNgY4oTpSwa5K7vNBGA==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: true
+
   /@iconify-json/carbon@1.1.24:
     resolution: {integrity: sha512-Sx4vj3HfQj3yP6a4QzWc1BymDO5uTOGTHeb5it/xaMa196C6+RegNUv1F+Y1h8AJ2Sv93GMI+PyMH0HyqTHEmg==}
     dependencies:
@@ -606,6 +618,12 @@ packages:
 
   /@iconify-json/fontisto@1.1.7:
     resolution: {integrity: sha512-H3I8cUdyjYjMoh59uYwcBXA0MzCBQoKHfgyk/b5zq6NA3yd7wTvhMlE9nj4ZuA/MrkqS+PFGIg5aJWZBslj8uQ==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: true
+
+  /@iconify-json/lets-icons@1.1.1:
+    resolution: {integrity: sha512-w1bv64PoAgBPMWkawzEE5lIRjwCwtU4/AytLZgGrVppAeeyDQ2Q2TN1vyLF2VM5UKbFNSToh1lV3D0hJphlCjA==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: true
