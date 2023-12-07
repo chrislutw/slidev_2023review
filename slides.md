@@ -104,7 +104,7 @@ h1 {
 工單系統已有詳細清單，整理出以下為精華
 
 - NFT交易中心
-    - <ant-design-skin-filled /> 皮膚系統 - 透過 css 變數設定快速調整版面色系
+    - 皮膚系統 - 透過 css 變數設定快速調整版面色系
     - <simple-icons-iconify /> Icon 圖示套件更換為 Iconify - 超過10萬個 icon 可用的開源套件
 - <img src="https://test-web-cdn.jlfafafa3.com/web_app_icon.png" inline-block w-6 h-6 /> 金銀島
     - <iconoir-chat-bubble-error /> 錯誤頁面改版 - 美化 UI 提升 UX 體驗，容易回報問題及查詢
