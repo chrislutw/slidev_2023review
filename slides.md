@@ -107,7 +107,7 @@ h1 {
     - 皮膚系統 - 透過 css 變數設定快速調整版面色系
     - <simple-icons-iconify /> Icon 圖示套件更換為 Iconify - 超過10萬個 icon 可用的開源套件
 - <img src="https://test-web-cdn.jlfafafa3.com/web_app_icon.png" inline-block w-6 h-6 /> 金銀島
-    - <iconoir-chat-bubble-error /> 錯誤頁面改版 - 美化 UI 提升 UX 體驗，容易回報問題及查詢
+    - 錯誤頁面改版 - 美化 UI 提升 UX 體驗，容易回報問題及查詢
     - <logos-jest /> 新增單元測試 - 新增程式範例，覆蓋率 2%
     - <mdi-image-multiple /> 前端多媒體資源分離 - CI/CD 加速 50% ，縮短 8 分鐘
     - 活動頁、說明頁公版優化 - 優化 UI 顯示，新增共用元件加速製程
