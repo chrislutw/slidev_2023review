@@ -15,6 +15,7 @@
   "devDependencies": {
     "@iconify-json/emojione": "^1.1.1",
     "@iconify-json/fontisto": "^1.1.7",
-    "@iconify-json/vscode-icons": "^1.1.31"
+    "@iconify-json/vscode-icons": "^1.1.31",
+    "playwright-chromium": "^1.40.1"
   }
 }
